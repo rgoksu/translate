@@ -13,7 +13,7 @@ $_L['Edit']                                           = 'Düzenle';
 $_L['Delete']                                         = 'Sil';
 $_L['Account']                                        = 'Hesap';
 $_L['Date']                                           = 'Tarih';
-$_L['Financial_Balances']                             = 'Finansal Dengeler';
+$_L['Financial_Balances']                             = 'Finansal Denge';
 $_L['Add_New_Account']                                = 'Yeni Hesap Ekle';
 $_L['Manage_Accounts']                                = 'Üyelikleri Yönet';
 $_L['initial_balance']                                = 'Başlangıç Bakiyesi';
@@ -33,7 +33,7 @@ $_L['Add_Deposit']                                    = 'Mevcduat Ekle';
 $_L['Amount']                                         = 'Miktar';
 $_L['Payer']                                          = 'Ödeyen';
 $_L['Category']                                       = 'Kategori';
-$_L['Payment Method']                                 = 'Ödeme Methodu';
+$_L['Payment Method']                                 = 'Ödeme Metodu';
 $_L['Ref']                                            = 'Ref';
 $_L['Status']                                         = 'Durum';
 $_L['Uncategorized']                                  = 'Kategorize Edilmemiş';
@@ -452,7 +452,7 @@ $_L['Quantity']                                       = 'Adet';
 $_L['Related Transactions']                           = 'İlgili İşlemleri';
 $_L['Download PDF']                                   = 'PDF İndir';
 $_L['Printable Version']                              = 'Yazdırılabilir Sürüm';
-$_L['Amount Due']                                     = 'Amount Due';
+$_L['Amount Due']                                     = 'Bakiye';
 $_L['Pay Now']                                        = 'Şimdi Öde';
 $_L['Add Deposit']                                    = 'Ön Ödeme Ekle';
 $_L['Choose an']                                      = 'Seçiniz';
@@ -516,7 +516,7 @@ $_L['n_a']                                            = 'n/a';
 $_L['Records']                                        = 'Kayıt';
 $_L['List Invoices']                                  = 'Faturaları Listele';
 $_L['Add Recurring Invoice']                          = 'Tekrarlayan Fatura Ekle';
-$_L['Due']                                            = 'Due';
+$_L['Due']                                            = 'Vade';
 $_L['Next Invoice']                                   = 'Sonraki Fatura';
 $_L['Stop Recurring']                                 = 'Tekrar Etmeyi Durdur';
 $_L['Add Tax']                                        = 'Vergi Ekle';
@@ -780,19 +780,19 @@ $_L['V2']                      = 'V2';
 # V 3.6.0
 
 $_L['CRON Log'] = 'CRON Log';
-$_L['Message'] = 'Message';
-$_L['Recent Invoices'] = 'Recent Invoices';
+$_L['Message'] = 'Mesaj';
+$_L['Recent Invoices'] = 'Son Faturalar';
 
 # V 3.7.0
 
 # V 4.0.0
 
-$_L['About'] = 'About';
+$_L['About'] = 'Hakkında';
 $_L['Or Install from URL'] = 'Or Install from URL';
 $_L['Fold Sidebar Default'] = 'Fold Sidebar by Default ?';
 $_L['Hide Footer Copyright'] = 'Hide Footer Copyright ?';
 $_L['Filter'] = 'Filter';
-$_L['Back'] = 'Back';
+$_L['Back'] = 'Geri';
 $_L['Account Number'] = 'Account Number';
 $_L['Contact Person'] = 'Contact Person';
 $_L['Internet Banking URL'] = 'Internet Banking URL';
@@ -802,39 +802,39 @@ $_L['Internet Banking URL'] = 'Internet Banking URL';
 $_L['Cc'] = 'Cc';
 $_L['Bcc'] = 'Bcc';
 $_L['Mode'] = 'Mode';
-$_L['Live'] = 'Live';
+$_L['Live'] = 'Canlı';
 $_L['Sandbox'] = 'Sandbox';
-$_L['Drop CSV File Here'] = 'Drop CSV File Here';
-$_L['Or Click to Upload'] = 'Or Click to Upload';
-$_L['Importing'] = 'Importing';
-$_L['Import Contacts'] = 'Import Contacts';
-$_L['Download Sample File'] = 'Download Sample File';
-$_L['Group'] = 'Group';
-$_L['Groups'] = 'Groups';
-$_L['Add New Group'] = 'Add New Group';
-$_L['Group Name'] = 'Group Name';
-$_L['Group Deleted Successfully'] = 'Group Deleted Successfully';
-$_L['Welcome Email'] = 'Welcome Email';
-$_L['Client:Client Signup Email'] = 'Client Signup Email';
+$_L['Drop CSV File Here'] = 'CSV dosyasını sürükle bırak';
+$_L['Or Click to Upload'] = 'Yüklemek için Tıkla';
+$_L['Importing'] = 'İçeri Aktarılıyor';
+$_L['Import Contacts'] = 'Kişileri Toplu Ekle';
+$_L['Download Sample File'] = 'Örnek Dosya İndir';
+$_L['Group'] = 'Grup';
+$_L['Groups'] = 'Grup';
+$_L['Add New Group'] = 'Yeni Grup Ekle';
+$_L['Group Name'] = 'Grup Adı';
+$_L['Group Deleted Successfully'] = 'Grup Başarı ile silindi';
+$_L['Welcome Email'] = 'Hoşgeldin Mesajı';
+$_L['Client:Client Signup Email'] = 'Müşteri Üye Epostası';
 $_L['Send Client Signup Email'] = 'Set Yes to send Client Signup Email.';
-$_L['Profile'] = 'Profile';
+$_L['Profile'] = 'Profil';
 $_L['Download'] = 'Download';
 $_L['Legacy'] = 'Legacy';
-$_L['New'] = 'New';
+$_L['New'] = 'Yeni';
 $_L['Default Landing Page'] = 'Default Landing Page';
-$_L['Admin Login'] = 'Admin Login';
-$_L['Client Login'] = 'Client Login';
-$_L['Recent Quotes'] = 'Recent Quotes';
-$_L['Recent Transactions'] = 'Recent Transactions';
+$_L['Admin Login'] = 'Admin Girişi';
+$_L['Client Login'] = 'Müşteri Girişi';
+$_L['Recent Quotes'] = 'Son Teklifler ';
+$_L['Recent Transactions'] = 'Son İşlemler';
 
 # V 4.2.0
 
-$_L['URL Rewrite'] = 'URL Rewrite';
-$_L['Currency Symbol'] = 'Currency Symbol';
-$_L['Home Currency'] = 'Home Currency';
-$_L['Currency Symbol Position'] = 'Currency Symbol Position';
-$_L['Left'] = 'Left';
-$_L['Right'] = 'Right';
+$_L['URL Rewrite'] = 'URL Kalıcı Bağlantı';
+$_L['Currency Symbol'] = 'Para Sembolü';
+$_L['Home Currency'] = 'Ana para sembolü';
+$_L['Currency Symbol Position'] = 'Para Sembolü Pozisyonu';
+$_L['Left'] = 'Sol';
+$_L['Right'] = 'Sağ';
 $_L['Currency Decimal Digits'] = 'Currency Decimal Digits';
 $_L['Thousand Separator Placement'] = 'Thousand Separator Placement';
 
@@ -846,29 +846,29 @@ $_L['Attach PDF'] = 'Attach PDF?';
 
 # v 4.4.0
 
-$_L['Cash Flow'] = 'Cash Flow';
+$_L['Cash Flow'] = 'Nakit Akışı';
 
 //Month Names short
-$_L['Jan'] = 'Jan';
-$_L['Feb'] = 'Feb';
+$_L['Jan'] = 'Oc';
+$_L['Feb'] = 'Şub';
 $_L['Mar'] = 'Mar';
-$_L['Apr'] = 'Apr';
+$_L['Apr'] = 'Nis';
 $_L['May'] = 'May';
-$_L['Jun'] = 'Jun';
-$_L['Jul'] = 'Jul';
-$_L['Aug'] = 'Aug';
-$_L['Sep'] = 'Sep';
-$_L['Oct'] = 'Oct';
-$_L['Nov'] = 'Nov';
-$_L['Dec'] = 'Dec';
+$_L['Jun'] = 'Haz';
+$_L['Jul'] = 'Tem';
+$_L['Aug'] = 'Ağts';
+$_L['Sep'] = 'Eyl';
+$_L['Oct'] = 'Ekm';
+$_L['Nov'] = 'Ksm';
+$_L['Dec'] = 'Arl';
 
-$_L['Last 12 Months'] = 'Last 12 Months';
-$_L['Data View'] = 'Data View';
-$_L['Refresh'] = 'Refresh';
-$_L['Reset'] = 'Reset';
-$_L['Save as Image'] = 'Save as Image';
-$_L['Click to Save'] = 'Click to Save';
-$_L['Average'] = 'Average';
-$_L['Line'] = 'Line';
+$_L['Last 12 Months'] = 'Son 12 Ay';
+$_L['Data View'] = 'Data Görünümü';
+$_L['Refresh'] = 'Yenile';
+$_L['Reset'] = 'Sıfırla';
+$_L['Save as Image'] = 'Resim olarak kaydet';
+$_L['Click to Save'] = 'Kaydetmek için tıkla';
+$_L['Average'] = 'Ortalama';
+$_L['Line'] = 'Çizgi';
 $_L['Bar'] = 'Bar';
-$_L['Net Worth'] = 'Net Worth';
+$_L['Net Worth'] = 'Net Değer';
